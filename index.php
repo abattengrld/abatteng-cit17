@@ -199,4 +199,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['exercise'])) {
     Deposit: <input type="number" name="deposit"><br>
     Withdraw: <input type="number" name="withdraw"><br>
     <input type="submit" value="Submit ex9">
-</form
+</form>
+
+<form method="POST">
+    <input type="hidden" name="exercise" value="ex10">
+    Math Grade: <input type="number" name="math"><br>
+    English Grade: <input type="number" name="english"><br>
+    Science Grade: <input type="number" name="science"><br>
+    <input type="submit" value="Submit ex10">
+</form>
+
+<form method="POST">
+    <input type="hidden" name="exercise" value="ex11">
+    Amount in PHP: <input type="number" name="ph_peso"><br>
+    <input type="submit" value="Submit ex11">
+</form>
+
+<form method="POST">
+    <input type="hidden" name="exercise" value="ex12">
+    Distance (km): <input type="number" name="distance"><br>
+    Fuel Price per Liter: <input type="number" step="0.01" name="fuel_price"><br>
+    Fuel Consumption (km per liter): <input type="number" step="0.01" name="fuel_consumption"><br>
+    <input type="submit" value="Submit ex12">
+</form>
+
+</body>
+</html>
